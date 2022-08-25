@@ -7,6 +7,7 @@
     top:0;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
 }
 
 .topLeft, .topRight {
@@ -21,7 +22,7 @@
 }
 
 .topIcon{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
     cursor: pointer;
     color:#444; 
@@ -36,6 +37,7 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    margin-top: 5px;
 }
 
 .topList{
@@ -49,7 +51,7 @@
 .topListItem{
     margin-right: 20px;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 350;
     cursor: pointer;
 }
 
